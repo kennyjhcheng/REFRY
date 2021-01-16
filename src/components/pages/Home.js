@@ -7,6 +7,8 @@ function Home() {
   return (
     <>
       <HeroDynamic />
+      {/* <Cards /> 
+      CARDS MOVED TO RECIPES PAGE!*/}
     </>
   );
 }

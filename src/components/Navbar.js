@@ -59,14 +59,14 @@ function Navbar() {
               </Link>
             </li>
 
-            {/* our mission */}
+            {/* recipes gallery */}
             <li className="nav-item">
               <Link
-                to="/our-mission"
+                to="/recipes"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Our Mission
+                Recipes
               </Link>
             </li>
 
