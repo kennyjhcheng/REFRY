@@ -1,7 +1,8 @@
 import React from "react";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import "./HeroDynamic.css";
 import "../App.css";
+import SearchBar from "./SearchBar";
 
 function HeroDynamic() {
   return (
@@ -12,8 +13,7 @@ function HeroDynamic() {
         Ditch the fast food. REFRY offers thousands of alternative and healthy
         recipes at your fingertips.
       </p>
-      <div className="hero-btns">
-        {/* GET STARTED BUTTON */}
+      {/* <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
@@ -22,7 +22,6 @@ function HeroDynamic() {
           GET STARTED
         </Button>
 
-        {/* WATCH TRAILER BUTTON */}
         <Button
           className="btns"
           buttonStyle="btn--primary"
@@ -30,7 +29,11 @@ function HeroDynamic() {
         >
           <i className="far fa-question-circle" /> HOW IT WORKS
         </Button>
+      </div> */}
+      <div className="search-bar">
+        <SearchBar />
       </div>
+      
     </div>
   );
 }
