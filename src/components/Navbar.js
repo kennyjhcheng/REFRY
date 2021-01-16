@@ -8,6 +8,7 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  // resizing for mobile and small windows
   const [button, setButton] = useState(true);
   const showButton = () => {
     if (window.innerWidth <= 960) {
