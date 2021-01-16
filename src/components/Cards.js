@@ -21,6 +21,32 @@ function Cards() {
               label="Food Type"
               path="/services"
             />
+            <CardItem
+              src="images/Refry_2_HackDavis.jpg"
+              text="Delicious Food Caption"
+              label="Food Type"
+              path="/services"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src="images/Refry_2_HackDavis.jpg"
+              text="Delicious Food Caption"
+              label="Food Type"
+              path="/services"
+            />
+            <CardItem
+              src="images/Refry_2_HackDavis.jpg"
+              text="Delicious Food Caption"
+              label="Food Type"
+              path="/products"
+            />
+            <CardItem
+              src="images/Refry_2_HackDavis.jpg"
+              text="Delicious Food Caption"
+              label="Food Type"
+              path="/sign-up"
+            />
           </ul>
           <ul className="cards__items">
             <CardItem
