@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import Recipes from "./components/pages/Recipes.js";
+import Restaurants from "./components/pages/Restaurants.js";
 
 // STYLE
 import "./App.css";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/services" component={Services} />
         <Route path="/about" component={About} />
         <Route path="/recipes" component={Recipes} />
+        <Route path="/restaurants" component={Restaurants} />
       </Switch>
     </Router>
   );

@@ -79,6 +79,15 @@ function Navbar() {
                 Search
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/restaurants"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Restaurants
+              </Link>
+            </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">SEARCH</Button>}
         </div>

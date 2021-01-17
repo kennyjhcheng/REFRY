@@ -8,7 +8,8 @@
 .home,
 .services,
 .about,
-.recipes {
+.recipes,
+.restaurants {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -25,14 +26,14 @@
   font-size: 100px;
 }
 
-/* .about {
+.restaurants {
   background-image: url("./bg-pages/cooking_aesthetic.jpg");
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-} */
+}
 
 .recipes {
   background-image: url("./bg-pages/cooking_aesthetic.jpg");
@@ -42,3 +43,4 @@
   color: #fff;
   font-size: 100px;
 }
+
