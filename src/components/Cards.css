@@ -1,10 +1,13 @@
 .cards {
   padding: 1rem;
-  background: #fff;
+  /* background: #fff; */
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 h1 {
   text-align: center;
+  padding-top: 50px;
+  color: #fff;
 }
 
 .cards__container {
@@ -38,7 +41,7 @@ h1 {
   width: 100%;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(255, 255, 255, 0.11));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -66,7 +69,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #c2a099;
   box-sizing: border-box;
 }
 
@@ -86,17 +89,29 @@ h1 {
 }
 
 .cards__item__img:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
 }
 
 .cards__item__info {
   padding: 20px 30px 30px;
+  background-color: #99c2a0;
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
+}
+
+.Dropdown_placeholder {
+  padding-top: 10px;
+  margin-right: 0px;
+}
+.cards__wrapper > i {
+  color: white;
+  font-size: 50px;
+  float: right;
+  clear: both;
 }
 
 @media only screen and (min-width: 1200px) {

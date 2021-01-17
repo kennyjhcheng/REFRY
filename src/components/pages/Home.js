@@ -8,7 +8,6 @@ function Home() {
   return (
     <>
       <HeroDynamic />
-
       <AboutPanel />
 
       {/* <Cards /> 
