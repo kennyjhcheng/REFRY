@@ -1,0 +1,11 @@
+.recipe > h2 {
+  text-size-adjust: 200%;
+  font-size: 200%;
+}
+
+.recipe > img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
