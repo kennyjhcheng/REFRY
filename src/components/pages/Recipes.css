@@ -56,7 +56,7 @@
   font-size: 200%;
 }
 
-.recipe_1 {
+/* .recipe_1 {
   float: left;
   width: 25%;
   height: 280px;
@@ -72,9 +72,9 @@
   float: right;
   width: 25%;
   height: 280px;
-}
+} */
 
 .container {
   display: table-row;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
 }
