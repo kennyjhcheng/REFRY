@@ -1,10 +1,24 @@
-import React from "react";
-// import { Button } from "./Button";
+import React, { useState } from "react";
 import "./HeroDynamic.css";
+import axios from "axios";
 import "../App.css";
 import SearchBar from "./SearchBar";
+import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from "uuid";
+import Recipe from "./recipe-related/Recipe";
 
 function HeroDynamic() {
+  let term = "";
+
+  const handleInput = function (e) {
+    console.log(e.target.value);
+    term = e.target.value;
+  };
+
+  const handleSearch = function () {
+    localStorage.setItem("query", term);
+  };
+
   return (
     <div className="hero-container">
       <video src="/videos/kitchen.mp4" autoPlay loop muted />
@@ -13,27 +27,10 @@ function HeroDynamic() {
         Ditch the fast food. REFRY offers thousands of alternative and healthy
         recipes at your fingertips.
       </p>
-      {/* <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          GET STARTED
-        </Button>
 
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          <i className="far fa-question-circle" /> HOW IT WORKS
-        </Button>
-      </div> */}
       <div className="search-bar">
-        <SearchBar />
+        <SearchBar handleInput={handleInput} handleSearch={handleSearch} />
       </div>
-      
     </div>
   );
 }
