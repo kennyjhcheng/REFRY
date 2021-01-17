@@ -1,5 +1,5 @@
 .aboutpanel-container {
-  height: 2500px;
+  height: auto;
   width: 100%;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   flex-direction: column;
