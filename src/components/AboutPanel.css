@@ -1,0 +1,178 @@
+.aboutpanel-container {
+  height: 2500px;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px;
+}
+
+/* slide 1 ..................................................... */
+
+.aboutpanel-slide-1 {
+  padding-left: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: left;
+  color: white;
+}
+
+.aboutpanel-slide-1 > h1 {
+  font-size: 100px;
+  margin-top: -150px;
+}
+
+.aboutpanel-slide-1 > p {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  padding-top: 37px;
+  padding-right: 400px;
+
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  overflow: auto;
+  display: block;
+}
+
+.aboutpanel-slide-1 > i {
+  font-size: 200px;
+
+  float: left;
+  margin-right: 10px;
+  clear: both;
+
+  padding-top: 50px;
+  padding-right: 50px;
+}
+/* ..................................................... */
+/* slide 2 ..................................................... */
+
+.aboutpanel-slide-2 {
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: right;
+  color: white;
+}
+
+.aboutpanel-slide-2 > h1 {
+  font-size: 100px;
+  margin-top: -150px;
+}
+
+.aboutpanel-slide-2 > p {
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: 100px;
+
+  padding-top: 37px;
+  padding-left: 400px;
+
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  overflow: auto;
+  display: block;
+}
+
+.aboutpanel-slide-2 > i {
+  font-size: 200px;
+
+  float: right;
+  margin-left: 10px;
+  clear: both;
+
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+/* ..................................................... */
+/* slide 3 ..................................................... */
+
+.aboutpanel-slide-3 {
+  padding-left: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: left;
+  color: white;
+}
+
+.aboutpanel-slide-3 > h1 {
+  font-size: 100px;
+  margin-top: -150px;
+}
+
+.aboutpanel-slide-3 > p {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 100px;
+
+  padding-top: 37px;
+  padding-right: 400px;
+
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  overflow: auto;
+  display: block;
+}
+
+.aboutpanel-slide-3 > i {
+  font-size: 200px;
+
+  float: left;
+  margin-right: 10px;
+  clear: both;
+
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+/* ..................................................... */
+/* slide 4 ..................................................... */
+
+.aboutpanel-slide-4 {
+  padding-right: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: right;
+  color: white;
+}
+
+.aboutpanel-slide-4 > h1 {
+  font-size: 100px;
+  margin-top: -150px;
+}
+
+.aboutpanel-slide-4 > p {
+  margin-top: 65px;
+  margin-right: 0px;
+  padding-top: 37px;
+  padding-left: 400px;
+
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  overflow: auto;
+  display: block;
+}
+
+.aboutpanel-slide-4 > i {
+  font-size: 200px;
+
+  float: right;
+  margin-left: 10px;
+  clear: both;
+
+  padding-top: 50px;
+  padding-left: 50px;
+}

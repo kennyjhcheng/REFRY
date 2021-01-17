@@ -27,7 +27,6 @@ function Navbar() {
 
   const closeMobileMenu = () => setClick(false);
 
-  //prettier-igmpre
   return (
     <>
       <nav className="navbar">
@@ -53,11 +52,11 @@ function Navbar() {
             </li>
 
             {/* about page */}
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+            {/* <li className="nav-item">
+              <Link to="/about" className="nav-links" onClick={handleBackClick}>
                 About
               </Link>
-            </li>
+            </li> */}
 
             {/* recipes gallery */}
             <li className="nav-item">
