@@ -21,9 +21,9 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   // ensures that Sign Up button is only rendered once
-  useEffect(() => {
-    showButton();
-  }, []);
+  // useEffect(() => {
+  //   showButton();
+  // }, []);
 
   const closeMobileMenu = () => setClick(false);
 
@@ -70,7 +70,7 @@ function Navbar() {
             </li>
 
             {/* search */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/search"
                 className="nav-links-mobile"
@@ -78,7 +78,7 @@ function Navbar() {
               >
                 Search
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link
                 to="/restaurants"
@@ -89,7 +89,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SEARCH</Button>}
+          {/* {button && <Button buttonStyle="btn--outline">SEARCH</Button>} */}
         </div>
       </nav>
     </>

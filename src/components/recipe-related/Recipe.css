@@ -9,3 +9,27 @@
   max-width: 300px;
   max-height: 300px;
 }
+
+.recipe > a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recipe > a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.recipe > a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.recipe > a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
