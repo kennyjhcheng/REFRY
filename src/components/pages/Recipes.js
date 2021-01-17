@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../../App.css";
-import Cards from "../Cards";
+import CardItem from "../Cards";
 import axios from "axios";
-import RecipeDisplay from "../recipe-related/RecipeDisplay";
 
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
@@ -41,8 +40,13 @@ function Recipes() {
   return (
     <div>
       <h1 className="recipes">RECIPES</h1>
-      <Cards />
-      <RecipeDisplay array={recipes} />
+      <div className="returned-recipes">
+        {recipes !== [] &&
+          recipes.map((recipe) => {
+            let { label, image, url } = recipe.recipe;
+            return <CardItem path={url} label={label} image={image} />;
+          })}
+      </div>
     </div>
   );
 }

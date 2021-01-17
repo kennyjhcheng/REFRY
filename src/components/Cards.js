@@ -2,7 +2,7 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 
-function Cards() {
+function Cards(props) {
   return (
     <div className="cards">
       <h1>Thousands of healthy recipes one click away.</h1>
@@ -14,25 +14,25 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/Refry_2_HackDavis.jpg" // the image to be displayed on the card
-              text="Delicious Food Caption" // this will be the name of the recipe
-              label="Food Type" // a tag on the picture indicating the type/category/country of the cuisine
-              path="/services" // "services" is a placeholder; this path should bring you to either a popup of the recipe, or dedicated page for that recipe
+              src={props.image} // the image to be displayed on the card
+              text={props.label} // this will be the name of the recipe
+              label="Whatever" // a tag on the picture indicating the type/category/country of the cuisine
+              path={props.url} // "services" is a placeholder; this path should bring you to either a popup of the recipe, or dedicated page for that recipe
             />
             <CardItem
-              src="images/Refry_2_HackDavis.jpg"
+              src="bg-pages/Refry_2_HackDavis.jpg"
               text="Delicious Food Caption"
               label="Food Type"
               path="/services"
             />
             <CardItem
-              src="images/Refry_2_HackDavis.jpg"
+              src="bg-pages/Refry_2_HackDavis.jpg"
               text="Delicious Food Caption"
               label="Food Type"
               path="/services"
             />
           </ul>
-          <ul className="cards__items">
+          {/* <ul className="cards__items">
             <CardItem
               src="images/Refry_2_HackDavis.jpg"
               text="Delicious Food Caption"
@@ -71,7 +71,7 @@ function Cards() {
               label="Food Type"
               path="/sign-up"
             />
-          </ul>
+          </ul> */}
           <h1 className="Dropdown_placeholder">Show more</h1>
           <i class="fas fa-caret-down"></i>
         </div>
