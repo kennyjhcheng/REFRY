@@ -13,20 +13,9 @@ const Restaurant = ({
   votes,
   rating_color,
 }) => {
-  const clickToStoreRecipe = () => {
-    let cuisinesList = cuisines.split(", ");
-    for (var i = 0; i < cuisinesList.length; i++) {
-      localStorage.setItem(i, cuisinesList[i]);
-    }
-  };
-
   return (
     <div className="restaurant-tile">
-      <Link to="/recipes">
-        <h2 className="rest-name" onClick={clickToStoreRecipe}>
-          {name}
-        </h2>
-      </Link>
+      <h2 className="rest-name">{name}</h2>
       <img alt="" src={thumb} className="rest-img" />
       <div className="rest-details">
         <div className="rest-loc">{locality}</div>

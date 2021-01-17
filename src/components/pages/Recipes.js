@@ -4,6 +4,7 @@ import "../../App.css";
 import Recipe from "../recipe-related/Recipe";
 import { v4 as uuidv4 } from "uuid";
 import Cards from "../Cards";
+import "./Recipes.css";
 
 export default function Recipes() {
   const [recipes1, setRecipes1] = useState([]);
@@ -54,17 +55,31 @@ export default function Recipes() {
   return (
     <div className="Recipe-page">
       <h1 className="recipes">RECIPES</h1>
-      <div>
+      {/* <div>
         <Cards />
-      </div>
+      </div> */}
+      <div class="flex-container">
+        <div className="recipes">
+          <div className="flex-item-1">
+            {recipes1 !== [] &&
+              recipes1.map((recipe) => (
+                <Recipe key={uuidv4()} recipe={recipe} />
+              ))}
+          </div>
 
-      <div className="recipes">
-        {recipes1 !== [] &&
-          recipes1.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
-        {recipes2 !== [] &&
-          recipes2.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
-        {recipes3 !== [] &&
-          recipes3.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
+          <div className="flex-item-2">
+            {recipes2 !== [] &&
+              recipes2.map((recipe) => (
+                <Recipe key={uuidv4()} recipe={recipe} />
+              ))}
+          </div>
+          <div className="flex-item-3">
+            {recipes3 !== [] &&
+              recipes3.map((recipe) => (
+                <Recipe key={uuidv4()} recipe={recipe} />
+              ))}
+          </div>
+        </div>
       </div>
     </div>
   );

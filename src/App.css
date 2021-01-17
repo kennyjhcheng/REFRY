@@ -36,11 +36,11 @@
 }
 
 .recipes {
-  background-image: url("./bg-pages/cooking_aesthetic.jpg");
+  /* background-image: url("./bg-pages/cooking_aesthetic.jpg"); */
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
-
