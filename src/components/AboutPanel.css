@@ -20,6 +20,7 @@
 }
 
 .aboutpanel-slide-1 > h1 {
+  margin-right: 500px;
   font-size: 100px;
   margin-top: -150px;
 }
@@ -62,6 +63,7 @@
 }
 
 .aboutpanel-slide-2 > h1 {
+  margin-left: 500px;
   font-size: 100px;
   margin-top: -150px;
 }
@@ -107,6 +109,7 @@
 .aboutpanel-slide-3 > h1 {
   font-size: 100px;
   margin-top: -150px;
+  margin-right: 500px;
 }
 
 .aboutpanel-slide-3 > p {
@@ -150,6 +153,7 @@
 .aboutpanel-slide-4 > h1 {
   font-size: 100px;
   margin-top: -150px;
+  margin-left: 450px;
 }
 
 .aboutpanel-slide-4 > p {
