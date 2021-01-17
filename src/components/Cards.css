@@ -14,9 +14,24 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 2000px;
+  max-width: 1000px;
   width: 90%;
   margin: 0 auto;
+}
+
+.grid {
+  position: relative;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cell {
+  position: relative;
+  float: left;
+  flex: 0 0 32%;
+  margin: 10px 0;
 }
 
 .cards__wrapper {
@@ -114,20 +129,23 @@ h1 {
   clear: both;
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
+    flex-wrap: wrap;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
+@media screen and (max-width: 1024px) {
+  .cards__items {
     margin-bottom: 2rem;
+    flex-wrap: wrap;
   }
 }

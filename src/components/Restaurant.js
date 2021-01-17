@@ -22,12 +22,12 @@ const Restaurant = ({
 
   return (
     <div className="restaurant-tile">
-      <Link to="/recipe">
+      <Link to="/recipes">
         <h2 className="rest-name" onClick={clickToStoreRecipe}>
           {name}
         </h2>
       </Link>
-      <img alt='' src={thumb} className='rest-img' />
+      <img alt="" src={thumb} className="rest-img" />
       <div className="rest-details">
         <div className="rest-loc">{locality}</div>
         <div className="rest-add">{address}</div>
