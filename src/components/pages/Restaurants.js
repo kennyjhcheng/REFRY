@@ -76,7 +76,7 @@ export default function Restaurants() {
           <div className="cards__wrapper">
             <ul className="cards__items">
               <CardItem
-                src={(restaurant[0]) ? restaurant[0].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[0]) ? ((restaurant[0].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[0].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[0]) ? restaurant[0].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[0]) ?
                   ((restaurant[0].restaurant.average_cost_for_two < 21) ?
@@ -86,7 +86,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[1]) ? restaurant[1].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[1]) ? ((restaurant[1].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[1].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[1]) ? restaurant[1].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[1]) ?
                   ((restaurant[1].restaurant.average_cost_for_two < 21) ?
@@ -96,7 +96,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[2]) ? restaurant[2].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[2]) ? ((restaurant[2].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[2].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[2]) ? restaurant[2].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[2]) ?
                   ((restaurant[2].restaurant.average_cost_for_two < 21) ?
@@ -108,7 +108,7 @@ export default function Restaurants() {
             </ul>
             <ul className="cards__items">
               <CardItem
-                src={(restaurant[3]) ? restaurant[3].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[3]) ? ((restaurant[3].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[3].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[3]) ? restaurant[3].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[3]) ?
                   ((restaurant[3].restaurant.average_cost_for_two < 21) ?
@@ -118,7 +118,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[4]) ? restaurant[4].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[4]) ? ((restaurant[4].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[4].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[4]) ? restaurant[4].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[4]) ?
                   ((restaurant[4].restaurant.average_cost_for_two < 21) ?
@@ -128,7 +128,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[5]) ? restaurant[5].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[5]) ? ((restaurant[5].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[5].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[5]) ? restaurant[5].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[5]) ?
                   ((restaurant[5].restaurant.average_cost_for_two < 21) ?
@@ -140,7 +140,7 @@ export default function Restaurants() {
             </ul>
             <ul className="cards__items">
               <CardItem
-                src={(restaurant[6]) ? restaurant[6].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[6]) ? ((restaurant[6].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[6].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[6]) ? restaurant[6].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[6]) ?
                   ((restaurant[6].restaurant.average_cost_for_two < 21) ?
@@ -150,7 +150,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[7]) ? restaurant[7].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[7]) ? ((restaurant[7].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[7].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[7]) ? restaurant[7].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[75]) ?
                   ((restaurant[7].restaurant.average_cost_for_two < 21) ?
@@ -160,7 +160,7 @@ export default function Restaurants() {
                 path="/services"
               />
               <CardItem
-                src={(restaurant[8]) ? restaurant[8].restaurant.thumb : "images/Refry_2_HackDavis.jpg"}
+                src={(restaurant[8]) ? ((restaurant[8].restaurant.thumb === "") ? "images/Refry_2_HackDavis.jpg" : restaurant[8].restaurant.thumb) : "images/Refry_2_HackDavis.jpg"}
                 text={(restaurant[8]) ? restaurant[8].restaurant.name : "Delicious Restaurant"}
                 label={(restaurant[8]) ?
                   ((restaurant[8].restaurant.average_cost_for_two < 21) ?
