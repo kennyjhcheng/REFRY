@@ -17,7 +17,7 @@ const AboutPanel = () => {
 
         <div className="aboutpanel-slide-2">
           <h1>Lead a Healthier Lifestyle</h1>
-          <i class="fas fa-heart"></i>
+          <i class="fas fa-heartbeat"></i>
           <p>
             Improve your diet with intelligent recipe recommendations and
             restaurant suggestions. Whenever you crave fast food, just come to
@@ -26,7 +26,7 @@ const AboutPanel = () => {
         </div>
 
         <div className="aboutpanel-slide-3">
-          <h1>Save Your Precious Money</h1>
+          <h1>Save your Precious Money</h1>
           <i class="fas fa-comments-dollar"></i>
           <p>
             Cooking at home will save you a dramatic amount of money. The same
