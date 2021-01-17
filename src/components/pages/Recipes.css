@@ -1,11 +1,80 @@
-.recipe > h2 {
-  text-size-adjust: 200%;
+.Recipe-page {
+  padding: 1rem;
+  /* background: #fff; */
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 4000px;
+}
+
+.Recipe-page > h1 {
+  font-size: 500%;
+}
+
+.Recipe-cards-container {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: black;
+  flex: auto;
+}
+
+.recipes {
+  font-size: 0.5vw;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  border: 1px black solid;
+  margin: 0 auto;
+}
+
+.flex-item-1 {
+  width: 50%;
+  height: 80%;
+  border: 1px black solid;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  padding-left: 50px;
   font-size: 200%;
 }
 
-.recipe > img {
-  height: auto;
-  width: auto;
-  max-width: 300px;
-  max-height: 300px;
+.flex-item-2 {
+  width: 50%;
+  height: 80%;
+  border: 1px black solid;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 200%;
+}
+
+.flex-item-3 {
+  width: 50%;
+  height: 80%;
+  border: 1px black solid;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  padding-right: 50px;
+  font-size: 200%;
+}
+
+/* .recipe_1 {
+  float: left;
+  width: 25%;
+  height: 280px;
+}
+
+.recipe_2 {
+  float: left;
+  width: 50%;
+  height: 280px;
+}
+
+.recipe_3 {
+  float: right;
+  width: 25%;
+  height: 280px;
+} */
+
+.container {
+  display: table-row;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
 }
