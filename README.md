@@ -2,6 +2,10 @@
  
  <div align="center">Ditch the fast food</div>
 
+
+
+
+
 View the website @ [https://refry-hack-davis.herokuapp.com/](https://refry-hack-davis.herokuapp.com/ "Refry")
 
 # Table of Content:
