@@ -17,7 +17,7 @@ View the website @ [https://refry-hack-davis.herokuapp.com/](https://refry-hack-
 - [Member List and github repo](#member-list-and-github-repos)
 
 ## Watch our video
-[![](image link)](<video link> "Hover Caption")
+[![](https://i.ytimg.com/vi/VVLTVvItczg/hqdefault.jpg)](https://www.youtube.com/watch?v=VVLTVvItczg&feature=youtu.be "Watch our Pitch on YouTube")
 
 ## Display shots
 
