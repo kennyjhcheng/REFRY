@@ -12,7 +12,7 @@ export default function Restaurants() {
   const [restaurant2, setRest2] = useState([]);
   const config = {
     headers: {
-      "user-key": "c3260ef03e5f1d2bea29e50dc4e93662",
+      "user-key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
     },
   };
   let query = localStorage.getItem("query");
