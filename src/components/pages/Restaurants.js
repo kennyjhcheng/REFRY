@@ -79,7 +79,7 @@ export default function Restaurants() {
   if (restaurant) {
     cards = (
       <div className="cards">
-        <h1>Thousands of healthy recipes one click away.</h1>
+        <h1>Recipes to your favourite restaurants are one click away!</h1>
         <div className="cards__container">
           <div className="cards__wrapper">
             <div className="grid">
