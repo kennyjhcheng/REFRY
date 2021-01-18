@@ -12,14 +12,14 @@ export default function Recipes() {
   const [recipes3, setRecipes3] = useState([]);
 
   // Recipe Search Edamam API
-  const APP_ID_1 = "66260f29";
-  const APP_KEY_1 = "8af149b61afa544bcf47b6b7ce7b0aa4";
+  const APP_ID_1 = "43ea1816";
+  const APP_KEY_1 = "94f73b514151b9a5877e56d0d563fa4c";
 
-  const APP_ID_2 = "c196c6d9";
-  const APP_KEY_2 = "fa40056a6f3b9c3de8f1ba931072d1f7";
+  const APP_ID_2 = "75faf14e";
+  const APP_KEY_2 = "3be662b5d8aa1fd445b6614837b40b58";
 
-  const APP_ID_3 = "b5920de0";
-  const APP_KEY_3 = "c043c103c76374d68b21797071cff659";
+  const APP_ID_3 = "827acfab";
+  const APP_KEY_3 = "e019fbacbd0d1c0ccedd45ee9f9b9ebe	";
 
   let query1 = localStorage.getItem(0);
   let query2 = localStorage.getItem(1);
