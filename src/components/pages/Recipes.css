@@ -31,7 +31,6 @@
 .flex-item-1 {
   width: 50%;
   height: 80%;
-  border: 1px black solid;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   padding-left: 50px;
   font-size: 200%;
@@ -40,7 +39,6 @@
 .flex-item-2 {
   width: 50%;
   height: 80%;
-  border: 1px black solid;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   padding-left: 50px;
   padding-right: 50px;
@@ -50,7 +48,6 @@
 .flex-item-3 {
   width: 50%;
   height: 80%;
-  border: 1px black solid;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   padding-right: 50px;
   font-size: 200%;
