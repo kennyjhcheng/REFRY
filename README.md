@@ -21,9 +21,12 @@ View the website @ [https://refry-hack-davis.herokuapp.com/](https://refry-hack-
 
 ## Display shots
 
-<div align="center"><img src ="homePage.jpg" width="800" height="400"></div>  
-<div align="center"><img src ="restaurantPage.jpg" width="600" height="700"></div>  
-<div align="center"><img src ="Recipe.jpg" width="600" height="700"></div>  
+<div align="center"><img src ="ss1.jpg" ></div>  
+<div align="center"><img src ="ss2.jpg" ></div>  
+<div align="center"><img src ="ss3.jpg" ></div>  
+<div align="center"><img src ="ss4.jpg" ></div>  
+<div align="center"><img src ="ss5.jpg" ></div>  
+
 
 # Programming language used
 
