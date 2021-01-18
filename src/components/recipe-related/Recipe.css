@@ -23,7 +23,7 @@
 }
 
 .recipe > a:hover {
-  color: red;
+  color: lightgray;
   background-color: transparent;
   text-decoration: underline;
 }
