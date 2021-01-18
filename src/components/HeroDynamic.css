@@ -70,3 +70,14 @@ video {
     width: 100%;
   }
 }
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

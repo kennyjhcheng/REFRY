@@ -30,6 +30,8 @@ function HeroDynamic() {
       <div className="search-bar">
         <SearchBar handleInput={handleInput} handleSearch={handleSearch} />
       </div>
+
+      <div className="arrow"></div>
     </div>
   );
 }
