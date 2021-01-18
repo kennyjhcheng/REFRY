@@ -7,6 +7,8 @@
 
 
 View the website @ [https://refry-hack-davis.herokuapp.com/](https://refry-hack-davis.herokuapp.com/ "Refry")
+Check out our figma wireframe @ [https://www.figma.com/file/dnLaI64O882S86CMIzYWoy/REFRY?node-id=0%3A1](https://www.figma.com/file/dnLaI64O882S86CMIzYWoy/REFRY?node-id=0%3A1)
+View our hackathon submission @ [https://devpost.com/software/refry-b9yde5](https://devpost.com/software/refry-b9yde5)
 
 # Table of Content:
 - [Watch on YouTube](#watch-our-video)
