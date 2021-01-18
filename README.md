@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+ <div align="center"><img src ="refryLogo.png" style="vertical-align:middle"></div>
+ 
+ <div align="center">Ditch the fast food</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View the website @ [https://refry-hack-davis.herokuapp.com/](https://refry-hack-davis.herokuapp.com/ "Refry")
 
-## Available Scripts
+# Table of Content:
+- [Watch on YouTube](#watch-our-video)
+- [Display Shots](#display-shots)
+- [Programming Language used ](#programming-language-used)
+- [Key Features](#key-features)
+- [Contact info](#contact-info)
+- [Member List and github repo](#member-list-and-github-repos)
 
-In the project directory, you can run:
+## Watch our video
+[![](image link)](<video link> "Hover Caption")
 
-### `npm start`
+## Display shots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center"><img src ="homePage.jpg" width="800" height="400"></div>  
+<div align="center"><img src ="restaurantPage.jpg" width="600" height="700"></div>  
+<div align="center"><img src ="Recipe.jpg" width="600" height="700"></div>  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Programming language used
 
-### `npm test`
+This project was build using React JS with the JSX language, Javascript, HTML5, and CSS3.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Key Features
+- Used node JS, React JS, and many of its features such as Hooks, Redux, Components, and functional/OOP concepts.
+- Simplicity in instructions to allow the user to quickly and easily find the recipes or restaurants they need
+- Beautiful UI designed on Figma that pleases the player and dark theme which is easy on the eyes.
+- Read about the impact you can make to yourself and the world through using our app in pursuit of a sustainable lifestyle
+- Uses Zomato and Edamam's APIs to show nearby restaurants and delicious recipes
 
-### `npm run build`
+# Future Scope 
+- Refining existing functionalities to incorporate more restaurants, recipes, and better images
+- Fine tune our UI to render information fetched from the APIs in an even more aesthetic fashion
+- Incorporate a map or location feature to allow users to find restaurants nearby their own location
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 
+ # Contact info 
+ 
+ ```
+ [mailto](davissong01@gmail.com)
+ ```
+ ```
+ kennyjiahuacheng@gmail.com
+ ```
+ ```
+ alicekanng@gmail.com
+ ```
+ ```
+ wjvanss@gmail.com
+ ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
+ # Member list and Github repos
+ - Kenny : https://github.com/kennyjhcheng
+ - Alice : https://github.com/alicekanng
+ - Davis : https://github.com/d-x-s
+ - Vanessa : https://github.com/jvxx
 
-### `npm run eject`
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
