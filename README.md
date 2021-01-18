@@ -1,6 +1,6 @@
  <div align="center"><img src ="refryLogo.png" style="vertical-align:middle"></div>
  
- <div align="center">Ditch the fast food</div>
+ # <div align="center">Ditch the fast food</div>
 
 
 
